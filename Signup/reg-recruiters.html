@@ -1,0 +1,129 @@
+<html>
+<style>
+.q{
+	text-align: center;
+	color: red;
+	font-weight: bold;
+	font-size: 30px;
+	padding-left: 30px;
+}
+
+.button
+        {
+            border:1px solid black;
+            font-size: 20px;
+            background-color: white;
+            border-radius: 5px;
+            width:80px;
+            height:30px ;
+            display:inline-block;
+            text-align: center;
+			margin-left: 600px;
+			margin-top: 30px;
+			margin-bottom: 5px;
+        }
+
+.p{
+	color: red;
+	font-size: 12px;
+}
+		
+.registerbtn{
+  background-color: lightblue;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover{
+	opacity: 1;
+}
+
+.y{
+	background-color: black;
+	text-align: center;
+	font-size: 25px;
+	font-family: bold;
+	color: white;
+	border-radius: 15px;
+}
+
+#p{
+	text-decoration: none;
+}
+</style>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<title>Registration Page</title>
+<header>
+<div>
+	<span class="q" id="w">Registration Page for Recruiters</span>
+	<span class="button"><a id="s" href="file:///D:/US/Projects/CareerHub/Home/Job%20Application%20Portal.html">Home</a></span><hr>
+</div>
+</header>
+<body>
+<div class="main">
+<div class="col">
+<div class="col-sm-4">
+</div>
+<div class="col-sm-4">
+	<label>Resume/CV<sup class="p">*</sup></label><input type="file" class="form-control" id="myfile"><br>
+	<label>FirstName<sup class="p">*</sup></label><input type="text" class="form-control" id="name" placeholder="enter your FirstName"><br>
+	<label>MiddleName<sup class="p">*</sup></label><input type="text" class="form-control" id="name" placeholder="enter your MiddleName"><br>
+	<label>LastName<sup class="p">*</sup></label><input type="text" class="form-control" id="name" placeholder="enter your LastName"><br>
+	<label>Email Address<sup class="p">*</sup></label><input type="text" class="form-control" id="Email Address" placeholder="enter your Email Address"><br>
+	<label>UserName<sup class="p">*</sup></label><input type="text" class="form-control" id="UserName" placeholder="enter your username"><br>
+	<label for="pass">Password<sup class="p">*</sup></label><input type="password" class="form-control" id="pass" name="password" placeholder="enter your password"><br>
+	<label for="pass">Confirm Password<sup class="p">*</sup></label><input type="password" class="form-control" id="pass" name="password" placeholder="enter your Password"><br>
+	<label>Contact<sup class="p">*</sup></label><input type="number" class="form-control" id="Phone Number" placeholder="enter your Phone number" maxlength="10"><br>
+	<label>Gender<sup class="p">*</sup></label>
+	<select id="gender" name="gender" required>
+                <option value="male">
+                    Male
+                </option>
+                <option value="female">
+                    Female
+                </option>
+                <option value="other">
+                    Other
+                </option>
+    </select><br><br>
+	<label>Current Company<sup class="p">*</sup></label><input type="text" class="form-control" id="Current Company" placeholder="enter your Current Company"><br>
+	<label>Current Role<sup class="p">*</sup></label><input type="text" class="form-control" id="Current Role" placeholder="enter your Current Role"><br>
+	<label>Roles and Responsibilities<sup class="p">*</sup></label><textarea cols="60" rows="5" value="Roles and Responsibilities"></textarea><br><br>
+	<label>Work Experience<sup class="p">*</sup></label><input type="number" class="form-control" id="number" placeholder="enter your Years of Work Experience"><br>
+	<label>Current Company<sup class="p">*</sup></label><input type="Text" class="form-control" id="current company" placeholder="enter your current company"><br>
+	<label>Highest Qualification<sup class="p">*</sup></label><br>
+	<select>
+		<option value="B.Tech">B.Tech</option>
+		<option value="BE">BE</option>
+		<option value="MASTERS">MASTERS</option>
+		<option value="MBA">MBA</option>
+		<option value="MCA">MCA</option>
+		<option value="Ph.D">B.Com</option>
+		<option value="Ph.D">M.Com</option>
+		<option value="Ph.D">Ph.D</option>
+	</select>
+	<br><br>
+	<label>Intersnhips<sup class="p">*</sup></label><textarea cols="60" rows="5" value="Intersnhips"></textarea><br>
+	<label>Skills<sup class="p">*</sup></label><br>
+	<textarea cols="60" rows="5" value="skills"></textarea>
+	<br><br>
+	
+	<center>
+	<button type="submit" class="registerbtn"><a id="p" href="file:///D:/US/Projects/CareerHub/signup/regsuccess.html">Register</a></button>
+	</center>
+	<center>
+	<h4 class="y"><a id="p" href="#w">Back to top</a></h4>
+	</center>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<html>
+<style>
+.box{
+	background-color: black;
+	width: 300px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 125px;
+	border-radius: 15px;
+}
+
+.box a {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    }
+
+.modal {
+    position: fixed;
+    inset: 0;
+	background-color: crimson;
+    display: none;
+    align-items: center;
+    justify-content: center;
+	}
+
+.content {
+    position: relative;
+    background: DarkOrchid;
+    padding: 1em 2em;
+	border-radius: 10px;
+    }
+	
+.modal:target{
+	display:flex;
+}
+
+#q{
+	text-decoration: none;
+}
+
+.brand-name
+        {
+            color: Red;
+            font-size: 45px;
+			font-weight: bold;
+			padding-left: 50px;
+        }
+
+.button
+        {
+            border:1px solid black;
+            font-size: 20px;
+            margin-left: 800px;
+            background-color: white;
+            border-radius: 5px;
+            width:80px;
+            height:30px ;
+            display:inline-block;
+            text-align: center;
+        }
+		
+.h{
+	background-color: #D6FFF6;
+}
+</style>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<title>Registration Success</title>
+<header>
+	<div>
+		<span class="brand-name">Career Hub</span>
+		<span class="button"><a id="q" href="file:///D:/US/Projects/CareerHub/Home/Job%20Application%20Portal.html">Home</a></span>
+	</div>
+</header>
+<body class="h">
+<center>
+	<div class="box">
+        <a id="q" href="#popup-box">Click to Open Popup Box!</a>
+    </div>
+    <div id="popup-box" class="modal">
+        <div class="content">
+            <h2 style="color: White">Registration Successful!</h2>
+            <a href="#" style="
+                        position: absolute;
+                        top: 10px;
+                        right: 10px;
+                        color: #fe0606;
+                        font-size: 30px;
+                        text-decoration: none;
+                    ">&times;</a>
+        </div>
+    </div>
+</center>
+</body>
+</html>
